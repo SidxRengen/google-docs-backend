@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://localhost:5432/google-docs
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+logging:
+  level:
+    com.devansh: debug
+
+JWT_SECRET_KEY: dafjljakjfrqiuru9rlsdafmkldkaldj0392420ewjfiew0fw0fwm0e9ru3209r493i2fjkwl
+FRONTEND_URL: http://localhost:5173
